@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  font-size: 12;
+}
+
+h2 {
+  background-color: #f7f7f7;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center;
+ 
+}
+
+.produto {
+  border: 3px solid #000000;
+  width: 825px;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.produto-preco {
+  font-size: 22px;
+  font-weight: bold;
+  float: left;
+}
+
+.titulo-produto {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: #f7f7f7;
+}
+
+
+.entrega {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+  margin-bottom: 25px;
+  float: right;
+}
+
+.entrega:hover {
+  background-color: #777;
+  color:#f7f7f7;
+  
+
+}
+
+.mais-info { margin-bottom: 20px;
+display: block;
+}
+.mais-info:link, .mais-info:visited {
+  color:black;
+
+}
+
+.mais-info:hover, .mais-info:active {
+  text-decoration: none;
+
+}
+
+.detalhes-titulo {
+text-transform: uppercase;
+font-size: 16px;
+}
+
+.detalhes-lista {
+  list-style: square;
+}
+
+.add-carrinho {
+  width: 100%;
+  background-color: black;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.add-carrinho:hover {
+  color:#000;
+  background-color: #fff;
+  
+}
+
+img {
+  width: 220px;
+  height: 220px;
+}
+
+.produto-img {
+  float: left;
+  margin-right: 40px;
+}
+
+.produto-info {
+  float: left;
+  width: 243px;
+  margin-right: 40px;
+}
+
+.produto-detalhes {
+  float: left;
+  width: 243px;
+}
+.cores {
+  margin-bottom: 30px;
+}
+
+.cor {
+  display: inline-block;
+  background-color: #000;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;  
+}
+
+.cor-azul {
+  background-color: blue;
+}
+
+
+.produto-titulo {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.produto-saldo {
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 10px;
+  position: absolute;
+  top: -20px;
+  left: -35px
+
+} 
+
+.produto-op {    
+  display: block;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.produto-desc {
+  margin-bottom: 10px;
+  clear: both;
+}
